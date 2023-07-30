@@ -71,3 +71,22 @@
 </body>
 </html>
 ```
+
+<div style="display: flex;">
+  <div style="width: 100%;" align="center" >
+   <br/>
+   <h1> Md. Rusul Azom </h1>
+  <div align=center>
+        <a href="#"><img src="https://img.shields.io/badge/Linkedin-0077b5?style=flat&logo=linkedin" alt="LinkedIn" /></a>
+        <a href="#"><img src="https://img.shields.io/badge/Youtube-ff0000?style=flat&logo=youtube" alt="Youtube" /></a>
+        <a href="#"><img src="https://img.shields.io/badge/Twitter-ffffff?style=flat&logo=twitter" alt="Twitter" /></a>    
+        <a href="#"><img src="https://img.shields.io/badge/Stack Overflow-f48024?style=flat&logo=stackoverflow&logoColor=white" alt="Stack Overflow" /></a>    
+        <a href="#"><img src="https://img.shields.io/badge/Facebook-ffffff?style=flat&logo=facebook" alt="Facebook"/></a>
+   </div>
+
+   <div >
+  <div style="width: 50%;" align="center" >
+   <a href="https://github.com/rusulazomsumon/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=tanvirstreame">
+</a>
+  </div>

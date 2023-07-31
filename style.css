@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Accessibility Guidelines & Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    ol li {
+      margin-bottom: 10px;
+    }
+
+    #example div {
+      border: 1px solid #333;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Accessibility Guidelines & Example</h1>
+    <nav>
+      <ul>
+        <li><a href="#guidelines">Accessibility Guidelines</a></li>
+        <li><a href="#example">Live Example</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="guidelines">
+      <h2>Accessibility Guidelines</h2>
+      <ol>
+        <li>Use Semantic Elements: Use semantic HTML elements for better structure.</li>
+        <li>Heading Order: Arrange headings in a hierarchical order.</li>
+        <li>Contrast Ratio: Ensure sufficient contrast between text and background.</li>
+        <li>Meaningful Link Text: Use descriptive link text for better understanding.</li>

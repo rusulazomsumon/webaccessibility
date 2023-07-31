@@ -1,88 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Accessibility Guidelines & Example</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
 
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
 
-    header h1 {
-      margin: 0;
-      font-size: 24px;
-    }
+  header h1 {
+    margin: 0;
+    padding: 0;
+  }
 
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
 
-    nav ul li {
-      margin: 0 15px;
-    }
+  nav li {
+    margin-right: 1rem;
+  }
 
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-    }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
 
-    main {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-    }
+  /* Main content styles */
+  main {
+    padding: 2rem;
+  }
 
-    section h2 {
-      border-bottom: 2px solid #333;
-      padding-bottom: 5px;
-    }
+  section {
+    margin-bottom: 2rem;
+  }
 
-    ol {
-      padding-left: 20px;
-    }
+  section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+  }
 
-    ol li {
-      margin-bottom: 10px;
-    }
+  ol {
+    list-style: decimal;
+    margin-left: 2rem;
+  }
 
-    #example div {
-      border: 1px solid #333;
-      padding: 10px;
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Web Accessibility Guidelines & Example</h1>
-    <nav>
-      <ul>
-        <li><a href="#guidelines">Accessibility Guidelines</a></li>
-        <li><a href="#example">Live Example</a></li>
-      </ul>
-    </nav>
-  </header>
+  /* Example section styles */
+  #example div {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+  }
 
-  <main>
-    <section id="guidelines">
-      <h2>Accessibility Guidelines</h2>
-      <ol>
-        <li>Use Semantic Elements: Use semantic HTML elements for better structure.</li>
-        <li>Heading Order: Arrange headings in a hierarchical order.</li>
-        <li>Contrast Ratio: Ensure sufficient contrast between text and background.</li>
-        <li>Meaningful Link Text: Use descriptive link text for better understanding.</li>
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }

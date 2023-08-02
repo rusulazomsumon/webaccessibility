@@ -1,11 +1,33 @@
 # Web Accessibility  
 [Live Preview of Examples](https://rusulazomsumon.github.io/webaccessibility/)
 
-ওয়েব অ্যাক্সেসিবিলিটি বলতে বোঝায় ওয়েবসাইট, টুলস এবং প্রযুক্তিগুলি এমনভাবে ডিজাইন এবং ডেভেলপ করা যাতে দৃষ্টি প্রতিবন্ধী, শ্রবণ প্রতিবন্ধী, শারীরিক প্রতিবন্ধী, বুদ্ধি প্রতিবন্ধী এবং অন্যান্য প্রতিবন্ধী ব্যক্তিরা সেগুলি ব্যবহার করতে পারে। ওয়েব অ্যাক্সেসিবিলিটি নীতিগুলি ওয়েব কন্টেন্ট অ্যাক্সেসিবিলিটি গাইডলাইনস (WCAG) দ্বারা নির্ধারিত হয়। WCAG হল একটি আন্তর্জাতিক মান যা ওয়েব সামগ্রীকে দৃষ্টি প্রতিবন্ধী ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য করে তোলার জন্য সংজ্ঞায়িত করে।
+‘ডিজিটাল সার্ভিস ওয়েবডিজাইনিং ফর ইনক্লুসিভ এক্সেসিবিলিটি’ এই শিরোনামে বাংলাদেশ সরকার ওয়েবসাইট / ওয়েব এপ্লিকেশন / মোবাইল এপ তৈরির একটি গাইডলাইন প্রদান করেছে। যেখানে বলা হয়েছে, দেশের সকল সরকারি বেসরকারি ওয়েবসাইট যেন এই নির্দেশনা অনুসরন করে ওয়েবসাইট বানায় (বিস্তারিত ও গাইডলাইন লিংক নিচে দেওয়া আছে)। আসুন  ইনক্লুসিভ এক্সেসিবিলিটি/ ওয়েব অ্যাক্সেসিবিলিটি এর বিস্তারিত জেনে নেই। তারসাথে এখানে কিছু উদাহরণ কোড সহ আলোচনা করা হয়েছেঃ 
+
+## ওয়েব অ্যাক্সেসিবিলিটি কি? 
+ওয়েব অ্যাক্সেসিবিলিটি বলতে বোঝায় ওয়েবসাইট, এই জাতীয় প্রজুক্তিগুলি এমনভাবে ডিজাইন এবং ডেভেলপ করা যাতে দৃষ্টি প্রতিবন্ধী, শ্রবণ প্রতিবন্ধী, শারীরিক প্রতিবন্ধী, বুদ্ধি প্রতিবন্ধী এবং অন্যান্য প্রতিবন্ধী ব্যক্তিরা সেগুলি ব্যবহার করতে পারে। ওয়েব অ্যাক্সেসিবিলিটি নীতিগুলি ওয়েব কন্টেন্ট অ্যাক্সেসিবিলিটি গাইডলাইনস (WCAG) দ্বারা নির্ধারিত হয়। WCAG হল একটি আন্তর্জাতিক মান যা ওয়েব এলিমেন্টকে দৃষ্টি প্রতিবন্ধী ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য করে তোলার জন্য সুবিধা প্রদান করে।
+
+
+## ওয়েব অ্যাক্সেসিবিলিটি কেন গুরুত্বপূর্ণ:
+
+সবার জন্য অ্যাক্সেস: ওয়েব অ্যাক্সেসিবিলিটি নিশ্চিত করে সব ব্যবহারকারী (প্রতিবন্ধী ব্যক্তিরা সহ) ওয়েবসাইটের তথ্য এবং সুবিধা সমানভাবে অ্যাক্সেস পাবে। প্রতিবন্ধীরা ব্যক্তিরা ডিজিটাল  দুনিয়ায় সম্পূর্ণরূপে অংশগ্রহণ করতে পারবে, সবাই একই তথ্য এবং সেবাগুলি অ্যাক্সেস করার অনুমতি পাবে, এটাই ওয়েব অ্যাক্সেসিবিলিটির মুল উদ্দেশ্য।  
+
+বাধ্যবাদকতা: অনেক দেশে আছে যেখানে ওয়েবসাইট এবং ডিজিটাল পরিষেবাগুলি প্রতিবন্ধীদের জন্য বাধ্যতামূলক অ্যাক্সেসযোগ্য  আইন এবং বিধিনিষেধ আছে। বাংলাদেশে ওয়েব কন্টেন্ট অ্যাক্সেসিবিলিটি গাইডলাইনস জারি হয়েছে, ভবিষ্যতে এই জাতীয় আইন আসতে পারে। 
+
+বেশি ইউজার: ওয়েবসাইট অ্যাক্সেসযোগ্য করলে আপনি বেশি ইউজারের কাছে পৌঁছাতে পারেন, যেমন কারন এখন অনেক প্রতিবন্ধী ব্যক্তিরা ডিজিটাল পরিষেবা ব্যাবহার করে। 
+
+ইউজার এক্সপ্রেরিয়েন্স (UX): ওয়েব অ্যাক্সেসিবিলিটি শুধুমাত্র প্রতিবন্ধী ব্যক্তিরাদের কাছেই সুবিধাজনক না, এটা  সমস্ত ব্যবহারকারীর জন্য দারুন সুবিধাজনক এক্সপেরিয়েন্স দেয়।  
+
+এসইও সুবিধা: সার্চ ইঞ্জিনগুলি অ্যাক্সেসিবিল ওয়েবসাইট গুলিকে বেশি অরগানাইয মনে করে তাই সার্চ ইনডেক্সে প্রায়োরিটি বেশি দেয়। 
+
+কর্পোরেট সামাজিক দায়িত্ব: ওয়েব অ্যাক্সেসিবিলিটি, এটি একটি প্রতিষ্ঠানের কর্পোরেট সামাজিক দায়িত্বের একটি অংশ, এটি নিশ্চিত করে যে আপনার প্রতিষ্ঠানটি সমন্বিততা এবং বৈচিত্র্যের প্রতি যত্নবান। 
+
+ভবিষ্যতের খরচ কমানো: কিছু ইউরপিয়ান দেশের মত আমাদের দেশের সরকারও যদি অ্যাক্সেসিবিলিটি বাধ্যতামূলক করে , তখন নতুন করে আবার হয়ত UI/UX ডিজাইন করতে হবে। তাই আগে থেকেই ওয়েব অ্যাক্সেসিবিলিটি গাইডলাইন মেনে সাইট ডিজাইন করা উচিত। 
+
+ওয়েব অ্যাক্সেসিবিলিটি একটি ডিজিটাল পৃথিবী তৈরি করতে চায় যা সমস্ত ব্যবহারকারীর জন্য উপযোগী হবে।
 
 ## WCAG এর চারটি নীতি রয়েছে:
 
-1. Perceivable: দৃষ্টি প্রতিবন্ধী ব্যক্তিরা যেন ওয়েব পেজ সহজে বুঝতে সক্ষম হন, যেমন লেখা, ছবি/চিত্র এবং অডিও/ভিদিও।
+1. Perceivable: দৃষ্টি প্রতিবন্ধী ব্যক্তিরা যেন ওয়েব পেজ সহজে বুঝতে সক্ষম হন, যেমন লেখা, ছবি/চিত্র এবং অডিও/ভিডিও।
 2. Operable: দৃষ্টি প্রতিবন্ধী ব্যক্তিরা ওয়েব পেজ পরিচালনা করতে সক্ষম হন, যেমন কীবোর্ড, মাউস , ওয়েব রিডার ব্যাবহার করে। 
 3. Understandable: দৃষ্টি প্রতিবন্ধী ব্যক্তিরা ওয়েব পৃষ্ঠার সামগ্রী বুঝতে সক্ষম হবেন, যেমন পাঠ্য, চিত্র এবং অডিও এর অর্থ।
 4. Robust: ওয়েব সাইট টি এমনভাবে তৈরি হওয়া উচিত যাতে এটি সহায়ক প্রযুক্তি বা ওয়েব ব্রাউজারের দ্বারা অ্যাক্সেসযোগ্য হয়।
@@ -79,6 +101,66 @@
 [গাইডলাইন টি দেখুন](https://a2i.gov.bd/wp-content/uploads/2023/05/Digital-Service-and-Web-Designing-Guideline-for-Inclusive-Accessibility-2022.pdf?fbclid=IwAR1xDN9at3BbWhaC32SUdR1TZ8jEAlt95V6BvJnDzBo9_2aT0sCQtWYTSOk)
 
 সুত্রঃ a2i
+
+
+
+## ওয়েব অ্যাক্সেসেবল ওয়েবসাইট উদাহরণ 
+কিছু দেশি বিদেশি ওয়েবসাইট যারা অনুসরন করেছে> 
+
+* [এক্সেস বাংলাদেশ](https://www.accessbangladesh.org)
+* [BBC News](https://www.bbc.com/news)
+* [Partake Foods](https://partakefoods.com)
+* [Girls Who Code](https://girlswhocode.com)
+* [World Wildlife Fund](https://www.worldwildlife.org)
+
+
+## রিসোর্স / কোর্স 
+
+### ১। কোর্স 
+* Web Accessibility Fundamentals (Google Web Fundamentals):
+    Course: https://developers.google.com/web/fundamentals/accessibility
+    Description: This tutorial by Google covers the fundamentals of web accessibility, including best practices, guidelines, and tools to create accessible websites.
+
+* Web Accessibility for Developers (MDN Web Docs):
+    Course: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
+    Description: The MDN Web Docs provides a comprehensive tutorial on web accessibility, tailored for web developers, covering topics from semantics to ARIA and more.
+
+* Introduction to Web Accessibility (W3C Web Accessibility Initiative - WAI):
+    Course: https://www.w3.org/WAI/fundamentals/accessibility-intro/
+    Description: This tutorial by W3C WAI provides an introduction to web accessibility, explaining the key concepts and principles.
+
+* Web Accessibility in Action (Microsoft Accessibility):
+    Course: https://accessibility.microsoft.com/en-us/training/
+    Description: Microsoft's accessibility training provides practical guidance on creating inclusive experiences, covering topics like color contrast, keyboard navigation, and more.
+
+* Web Accessibility Tutorials (Deque University):
+    Course: https://dequeuniversity.com/
+    Description: Deque University offers a collection of web accessibility tutorials and courses, from beginner to advanced levels.
+
+* Web Accessibility Tutorial Series (The A11y Project):
+    Course: https://www.a11yproject.com/tutorials/
+    Description: The A11y Project provides a tutorial series that focuses on practical steps to improve web accessibility.
+
+### ২। YouTube Videos:
+
+* Web Accessibility Fundamentals (Google Chrome Developers):
+    Video: https://www.youtube.com/watch?v=6o4O_Xu1quE
+    Description: This video from Google Chrome Developers covers the basics of web accessibility and the importance of creating accessible websites.
+
+* Web Accessibility Crash Course (Traversy Media):
+    Video: https://www.youtube.com/watch?v=QLV8hT_tKUs
+    Description: This YouTube video by Traversy Media offers a quick crash course on web accessibility, covering essential tips and techniques.
+
+* Web Accessibility - How to Build an Accessible Website (Webflow):
+    Video: https://www.youtube.com/watch?v=CW8qD1Oa16k
+    Description: Webflow's tutorial explains how to build an accessible website, including practical examples and demonstrations.
+
+* Intro to Web Accessibility (Google Chrome Developers):
+    Video: https://www.youtube.com/watch?v=2jgx_SkLTqc
+    Description: This introductory video by Google Chrome Developers discusses the core principles of web accessibility.
+
+* Understanding Web Accessibility (LevelUpTuts):
+    Video: https://www.youtube.com/watch?v=E68J2-_FZ8s
 
 <div style="display: flex;">
   <div style="width: 100%;" align="center" >

@@ -117,50 +117,50 @@
 ## রিসোর্স / কোর্স 
 
 ### ১। কোর্স 
-* Web Accessibility Fundamentals (Google Web Fundamentals):
-    Course: https://developers.google.com/web/fundamentals/accessibility
+* Web Accessibility Fundamentals (Google Web Fundamentals):   
+    Course: https://developers.google.com/web/fundamentals/accessibility  
     Description: This tutorial by Google covers the fundamentals of web accessibility, including best practices, guidelines, and tools to create accessible websites.
 
-* Web Accessibility for Developers (MDN Web Docs):
-    Course: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
+* Web Accessibility for Developers (MDN Web Docs):   
+    Course: https://developer.mozilla.org/en-US/docs/Learn/Accessibility    
     Description: The MDN Web Docs provides a comprehensive tutorial on web accessibility, tailored for web developers, covering topics from semantics to ARIA and more.
 
-* Introduction to Web Accessibility (W3C Web Accessibility Initiative - WAI):
-    Course: https://www.w3.org/WAI/fundamentals/accessibility-intro/
-    Description: This tutorial by W3C WAI provides an introduction to web accessibility, explaining the key concepts and principles.
+* Introduction to Web Accessibility (W3C Web Accessibility Initiative - WAI):   
+    Course: https://www.w3.org/WAI/fundamentals/accessibility-intro/   
+    Description: This tutorial by W3C WAI provides an introduction to web accessibility, explaining the key concepts and principles.   
 
-* Web Accessibility in Action (Microsoft Accessibility):
-    Course: https://accessibility.microsoft.com/en-us/training/
-    Description: Microsoft's accessibility training provides practical guidance on creating inclusive experiences, covering topics like color contrast, keyboard navigation, and more.
+* Web Accessibility in Action (Microsoft Accessibility):   
+    Course: https://accessibility.microsoft.com/en-us/training/    
+    Description: Microsoft's accessibility training provides practical guidance on creating inclusive experiences, covering topics like color contrast, keyboard navigation, and more.  
 
-* Web Accessibility Tutorials (Deque University):
-    Course: https://dequeuniversity.com/
-    Description: Deque University offers a collection of web accessibility tutorials and courses, from beginner to advanced levels.
+* Web Accessibility Tutorials (Deque University):   
+    Course: https://dequeuniversity.com/   
+    Description: Deque University offers a collection of web accessibility tutorials and courses, from beginner to advanced levels.   
 
-* Web Accessibility Tutorial Series (The A11y Project):
-    Course: https://www.a11yproject.com/tutorials/
+* Web Accessibility Tutorial Series (The A11y Project):   
+    Course: https://www.a11yproject.com/tutorials/  
     Description: The A11y Project provides a tutorial series that focuses on practical steps to improve web accessibility.
 
 ### ২। YouTube Videos:
 
-* Web Accessibility Fundamentals (Google Chrome Developers):
-    Video: https://www.youtube.com/watch?v=6o4O_Xu1quE
+* Web Accessibility Fundamentals (Google Chrome Developers):   
+    Video: https://www.youtube.com/watch?v=6o4O_Xu1quE    
     Description: This video from Google Chrome Developers covers the basics of web accessibility and the importance of creating accessible websites.
 
-* Web Accessibility Crash Course (Traversy Media):
-    Video: https://www.youtube.com/watch?v=QLV8hT_tKUs
+* Web Accessibility Crash Course (Traversy Media):   
+    Video: https://www.youtube.com/watch?v=QLV8hT_tKUs   
     Description: This YouTube video by Traversy Media offers a quick crash course on web accessibility, covering essential tips and techniques.
 
-* Web Accessibility - How to Build an Accessible Website (Webflow):
-    Video: https://www.youtube.com/watch?v=CW8qD1Oa16k
+* Web Accessibility - How to Build an Accessible Website (Webflow):   
+    Video: https://www.youtube.com/watch?v=CW8qD1Oa16k   
     Description: Webflow's tutorial explains how to build an accessible website, including practical examples and demonstrations.
 
-* Intro to Web Accessibility (Google Chrome Developers):
-    Video: https://www.youtube.com/watch?v=2jgx_SkLTqc
+* Intro to Web Accessibility (Google Chrome Developers):   
+    Video: https://www.youtube.com/watch?v=2jgx_SkLTqc   
     Description: This introductory video by Google Chrome Developers discusses the core principles of web accessibility.
 
-* Understanding Web Accessibility (LevelUpTuts):
-    Video: https://www.youtube.com/watch?v=E68J2-_FZ8s
+* Understanding Web Accessibility (LevelUpTuts):   
+    Video: https://www.youtube.com/watch?v=E68J2-_FZ8s    
 
 <div style="display: flex;">
   <div style="width: 100%;" align="center" >
